@@ -1,0 +1,96 @@
+聽完一節課之後，動手練習看看唷!
+
+
+
+1.	在 Lab_WindChimes 新增一個 HTML 文件，
+	檔名: WindChines.html  <Hint> 滑鼠右鍵 | New File
+	一開始的內容如下: 
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+2. 將 title 改成:
+<title>風鈴</title>
+
+
+
+3. 將 text.txt 的內容貼到 <body> 與 </body> 之間，然後用瀏覽器測試看看。
+   (結果整篇文章都糊在一塊，HTML是不管空白、換行等字元的唷!)
+
+
+
+4. 在 body 之後的「風鈴」標題前後加上<h1>與</h1>。
+
+
+
+5. 後續的每個段落前後都加上 <p> 與 </p>，完成後的 HTML 文件如下:
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>風鈴</title>
+</head>
+<body>
+
+<h1>風鈴</h1>
+
+<p>風鈴，一種鈴。其可在風的吹動下，通過各個鈴鐺或其他物體的碰撞來發出聲音。種類有很多，如日本風鈴、八角風鈴等。有人認為其會招魂，不宜擺放，但是在亞洲的一些地區，人們認為風鈴能帶來好運，常用風鈴來預測風水。尤其是在日本，風鈴能發出令人愉快的清脆聲音，因此人們在悶熱潮濕的夏日就會把風鈴掛在窗邊，給人以清爽的感覺。</p>
+
+<p>風鈴也可以用來觀測風向的變化。例如，風鈴掛在屋子的北面時，只有北風會吹動它，這樣就可以使人們意識到天氣的變化。相反的，南風就會使風鈴向南面飄動。</p>
+
+<p>近年來，不同種類的風鈴也作為打擊樂器被用於古典音樂中</p>
+
+<p>本頁的圖片、聲音、文字取材自維基百科的風鈴中文條目，依 CC 3.0 授權使用。</p>
+
+</body>
+</html>
+
+
+
+6. 用瀏覽器測試看看文件的顯示效果。
+
+
+
+7. 請問，如果「風鈴，一種鈴。」之後的文字顯示要另起新行，應該加入什麼標籤?
+
+
+
+8. 在 </h1> 與 <p> 之間，加上一個圖片元素，圖檔來源是同一資料夾的 200px-Glass_windchime.jpg
+   完成後，用瀏覽器測試看看文件的顯示效果。
+
+<img src="200px-Glass_windchime.jpg" />
+
+
+9. 在最後一段之前，貼入下列 audio 元素
+	<audio controls>
+		<source src="Windchimes.ogg" type="audio/ogg">
+		<source src="Windchimes.mp3" type="audio/mpeg">
+	</audio>
+
+
+10. 在最後一段之前，加入 <hr> 標籤，視覺效果是加一個水平線。
+
+
+
+11. 找到最後一段的「維基百科的風鈴中文條目」字樣，然後前後加上 <a> 與 </a>
+    完成後，用瀏覽器測試看看文件的顯示效果。
+
+
+12. 在 <a> 的開始標籤加入 href 屬性，屬性值: https://en.wikipedia.org/wiki/Wind_chime
+    像這樣:
+
+<p>本頁的圖片、聲音、文字取材自<a href="https://en.wikipedia.org/wiki/Wind_chime">維基百科的風鈴中文條目</a>，依 CC 3.0 授權使用。</p>
+
+
+以上就是我們完成的第一份 HTML 文件，用瀏覽器欣賞看看並且複習一下整個過程。
