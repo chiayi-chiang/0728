@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--統一設定-->
+    <!--p段落／.p類別-->
+    <!--此空格表示包含子類別-->
+    <style>
+        p {
+            color:royalblue;
+        }
+        p.lucky{
+            color: red;
+        }
+        #p1{
+            color: olive;
+        }
+        div p{
+            color:orangered;
+        }
+        .em1 {
+
+        }
+    </style>
+</head>
+<body>
+    <p class="lucky">paragraph 1.</p>
+
+    <p>paragraph 2.</p>
+    <p>paragraph 3.</p>
+    <p id="p1" class="lucky">paragraph 4.</p><!--最明確優先權高-->
+    <p class="lucky em1">paragraph 5.</p><!--在class中空格表須包含另一元素-->
+    <p>paragraph 6.</p>
+    <div>
+        <p>paragraph 7.</p>
+        <p>paragraph 8.</p>
+    </div>
+    
+    <p>paragraph 9.</p>
+</body>
+</html>
